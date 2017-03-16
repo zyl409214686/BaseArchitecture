@@ -1,4 +1,4 @@
-package woman.sy.com.ultraman;
+package com.ultraman;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

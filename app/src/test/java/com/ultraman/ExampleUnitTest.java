@@ -1,4 +1,4 @@
-package woman.sy.com.ultraman;
+package com.ultraman;
 
 import org.junit.Test;
 

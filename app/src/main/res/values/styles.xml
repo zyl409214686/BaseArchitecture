@@ -12,4 +12,12 @@
     <style name="Theme.NoTitleBar" parent="@android:style/Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
+
+    <!-- 透明dialog -->
+    <style name="transparent_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
 </resources>

@@ -1,4 +1,4 @@
-package woman.sy.com.ultraman;
+package com.ultraman;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
+
+import woman.sy.com.ultraman.R;
 
 public class LauncherActivity extends FragmentActivity {
 
