@@ -9,8 +9,9 @@
     </style>
 
     <!-- 通用no titlebar style -->
-    <style name="Theme.NoTitleBar" parent="@android:style/Theme.NoTitleBar">
+    <style name="Theme.NoTitleBar" parent="@style/Theme.AppCompat">
         <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <!-- 透明dialog -->

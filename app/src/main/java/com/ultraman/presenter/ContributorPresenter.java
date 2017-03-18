@@ -39,9 +39,9 @@ public class ContributorPresenter extends MvpBasePresenter<ContributorView> {
         @Override
         public void onNext(Contributor topContributor) {
             ContributorView view = getView();
-            if(view != null){
+//            if(view != null){
                 view.onLoadContributorComplete(topContributor);
-            }
+//            }
         }
     };
 

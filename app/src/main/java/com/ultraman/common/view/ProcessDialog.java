@@ -10,7 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import woman.sy.com.ultraman.R;
+import com.ultraman.R;
 
 
 /**

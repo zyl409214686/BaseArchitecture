@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 
-import woman.sy.com.ultraman.R;
+import com.ultraman.R;
 
 public class LauncherActivity extends FragmentActivity {
 

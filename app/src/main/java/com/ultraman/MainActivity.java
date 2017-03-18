@@ -12,8 +12,8 @@ import com.ultraman.presenter.ContributorPresenter;
 import com.ultraman.presenter.ContributorView;
 import com.ultraman.viewmodel.Contributor;
 
-import woman.sy.com.ultraman.R;
-import woman.sy.com.ultraman.databinding.ActivityMainBinding;
+import com.ultraman.databinding.ActivityMainBinding;
+
 
 public class MainActivity extends MvpActivity<ContributorView,ContributorPresenter>  implements ContributorView {
 
