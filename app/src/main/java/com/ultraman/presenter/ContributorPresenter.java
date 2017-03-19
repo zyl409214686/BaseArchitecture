@@ -1,8 +1,11 @@
 package com.ultraman.presenter;
 
+import android.util.Log;
+
 import com.hannesdorfmann.mosby.mvp.MvpBasePresenter;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
@@ -33,7 +36,7 @@ public class ContributorPresenter extends MvpBasePresenter<ContributorView> {
 
         @Override
         public void onError(Throwable e) {
-
+            Log.e("error", e.getMessage());
         }
 
         @Override
